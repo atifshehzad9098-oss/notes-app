@@ -50,7 +50,10 @@ Add your project screenshot here.
 
 Example:
 
-<img width="1901" height="886" src="YOUR_IMAGE_LINK_HERE" />
+<img width="1275" height="722" alt="Screenshot 2026-03-27 085932" src="https://github.com/user-attachments/assets/95ed6151-d9b3-469f-ab60-0c650b314736" />
+<img width="1276" height="703" alt="Screenshot 2026-03-27 085815" src="https://github.com/user-attachments/assets/059f01cb-5b3e-4c97-90dc-49ef763f7675" />
+
+
 
 ## Future Improvements
 
