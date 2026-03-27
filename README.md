@@ -27,27 +27,6 @@ This project helped me practice React useState and two-way data binding.
 * HTML5
 * CSS3
 
-## Project Structure
-
-notes-app
-│
-├── public
-│
-├── src
-│ ├── assets
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-│
-├── .gitignore
-├── README.md
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-└── vite.config.js
-
 ## How It Works
 
 1. The user enters a note title.
