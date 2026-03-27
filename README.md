@@ -1,16 +1,89 @@
-# React + Vite
+# Notes App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This is a simple Notes App built with React.js and Tailwind CSS.
+In this app, users can add notes by writing a title and details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When the user clicks the "Add Note" button, the note appears on the right side of the screen.
+Users can also delete notes when they do not need them.
 
-## React Compiler
+This project helped me practice React useState and two-way data binding.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Add notes with title and details
+* Notes appear instantly after clicking "Add Note"
+* Delete notes easily
+* Responsive layout
+* Clean user interface using Tailwind CSS
+* State management using React useState
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* React.js
+* JavaScript (ES6)
+* Tailwind CSS
+* HTML5
+* CSS3
+
+## Project Structure
+
+notes-app
+│
+├── public
+│
+├── src
+│ ├── assets
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+│
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+
+## How It Works
+
+1. The user enters a note title.
+2. The user writes note details.
+3. When the user clicks the "Add Note" button, the note is saved using React useState.
+4. The note is displayed on the right side of the screen.
+5. The user can delete the note using the Delete button.
+
+## Concepts Learned
+
+* React useState hook
+* Two-way data binding
+* Handling form inputs
+* Updating array state
+* Rendering lists using map()
+* Event handling in React
+
+## Preview
+
+Add your project screenshot here.
+
+Example:
+
+<img width="1901" height="886" src="YOUR_IMAGE_LINK_HERE" />
+
+## Future Improvements
+
+* Edit notes
+* Save notes in localStorage
+* Add dark and light mode
+* Add search feature
+
+## Author
+
+Atif Shehzad
+
+Front-End Developer (Learning Stage)
+
+Skills: HTML, CSS, JavaScript, React, Tailwind CSS
